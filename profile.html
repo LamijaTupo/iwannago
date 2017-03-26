@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+	<head>
+		<!-- meta -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>I wanna go !</title>
+
+<script src="jquery-1.11.2.min.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.css">
+  <link rel="stylesheet" href="profile.css">
+  <script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+
+</head>
+<body>
+  <div id="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> i wanna <span>GO !</span></a>
+			</div>
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">notifications</a></li>
+					<li><a href="my-trips.html">my trips</a></li>
+					<li class="active"><a href="profile.html">profile</a></li>
+					<li><a href="login.html">log out</a></li>
+				</ul>
+		    </div>
+	  	</div>
+	</nav>
+  </div>
+	<div id="profile-tab">
+    <div class="col-lg-12 col-sm-12">
+        <div class="card hovercard">
+            <div class="card-background">
+                <img class="card-bkimg" alt="" src="http://lorempixel.com/100/100/people/9/">
+                <!-- http://lorempixel.com/850/280/people/9/ -->
+            </div>
+            <div class="useravatar">
+                <img alt="" src="https://img.clipartfest.com/ea79387c8fab3a3083c02169740dccb2_black20hair20clipart-a-girl-clipart-with-black-hair_600-601.png">
+            </div>
+            <div class="card-info"> <span class="card-title">Jane Doe</span>
+
+            </div>
+        </div>
+        <div class="btn-pref btn-group btn-group-justified btn-group-lg" role="group" aria-label="...">
+            <div class="btn-group" role="group">
+                <button type="button" id="stars" class="btn btn-primary" href="#tab1" data-toggle="tab">
+                    <div class="hidden-xs">About</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="favorites" class="btn btn-default" href="#tab2" data-toggle="tab">
+                    <div class="hidden-xs">Previous trips</div>
+                </button>
+            </div>
+            <div class="btn-group" role="group">
+                <button type="button" id="following" class="btn btn-default" href="#tab3" data-toggle="tab">
+                    <div class="hidden-xs">Forum posts</div>
+                </button>
+            </div>
+        </div>
+
+            <div class="well">
+          <div class="tab-content">
+            <div class="tab-pane fade in active" id="tab1">
+              <h3>This is tab 1</h3>
+            </div>
+            <div class="tab-pane fade in" id="tab2">
+              <h3>This is tab 2</h3>
+            </div>
+            <div class="tab-pane fade in" id="tab3">
+              <h3>This is tab 3</h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+	</div>
+
+    <script src="bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>

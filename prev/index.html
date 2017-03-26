@@ -12,19 +12,27 @@
 			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
 	<title>I wanna go !</title>
 
-<script src="jquery-1.11.2.min.js"></script>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/css/ionicons.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.css">
+	<link rel="stylesheet" href="assets/css/owl.theme.css">
+	<link rel="stylesheet" href="assets/css/flexslider.css" type="text/css">
+  <link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/forum.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+			<!--[if lt IE 9]>
+				<script src="assets/js/html5shiv.js"></script>
+				<script src="assets/js/respond.js"></script>
+			<![endif]-->
 
-  <link rel="stylesheet" href="styles.css">
-	<link rel="stylesheet" href="bootstrap.min.css">
-  <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
-  <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.css">
-  <script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
-
+			<!--[if IE 8]>
+		    	<script src="assets/js/selectivizr.js"></script>
+		    <![endif]-->
 </head>
 <body>
-  <div id="navigation">
-    <nav class="navbar navbar-default navbar-fixed-top">
+	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
 					<span class="sr-only">Toggle navigation</span>
@@ -32,40 +40,64 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> i wanna <span>GO !</span></a>
-			</div>
+				<a class="navbar-brand" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> i wanna <span>GO!</span></a>
+			</div> <!-- /.navbar-header -->
 
+	    <!-- Collect the nav links, forms, and other content for toggling -->
 		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="index.html">home</a></li>
-					<li><a href="#">notifications</a></li>
-					<li><a href="my-trips.html">my trips</a></li>
-					<li><a href="profile.html">profile</a></li>
-					<li><a href="login.html">log out</a></li>
-				</ul>
-		    </div>
-	  	</div>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">about</a></li>
+					<li><a href="services.html">services</a></li>
+					<li><a href="tripdetail.html">trip details</a></li>
+				</ul> <!-- /.nav -->
+		    </div><!-- /.navbar-collapse -->
+	  	</div><!-- /.container -->
 	</nav>
-  </div>
-	<div id="index-body" class="container">
-  <!-- <div id="home-slider" class="container-fluid">
-    <div class="owl-carousel owl-theme">
-    <div class="slider-item"> <img src="https://s-media-cache-ak0.pinimg.com/originals/14/be/79/14be79c78f675a0775af65427b9d6376.jpg" class="slider-img img-responsive" alt=""> </div>
-    <div class="slider-item"> <img src="https://static1.squarespace.com/static/524d09ece4b05018590c5c59/t/5260e196e4b055fef802e254/1382080921506/sea-sanctuaries-siteimage01.jpg" class="slider-img img-responsive" alt=""> </div>
-    <div class="slider-item"> <img src="http://weknownyourdreamz.com/images/mountain/mountain-05.jpg" class="slider-img img-responsive" alt=""> </div>
-</div>
-  </div> -->
-	<div class="container-fluid">
-		<div class="owl-carousel owl-theme">
-			<div> <img src="https://s-media-cache-ak0.pinimg.com/originals/14/be/79/14be79c78f675a0775af65427b9d6376.jpg" class="thumbnail" alt=""> </div>
-	    <div> <img src="https://static1.squarespace.com/static/524d09ece4b05018590c5c59/t/5260e196e4b055fef802e254/1382080921506/sea-sanctuaries-siteimage01.jpg" class="thumbnail" alt=""> </div>
-	    <div> <img src="http://weknownyourdreamz.com/images/mountain/mountain-05.jpg" class="thumbnail" alt=""> </div>
-		</div>
-	</div>
-  <div id="forum">
-    <div class="container" style="margin-top: 35px">
+
+<!-- Home -->
+		<div id="header">
+		    <div class="flexslider">
+		        <ul class="slides">
+		            <li class="slider-item" style="background-image: url('assets/images/item-1.png')">
+		                <div class="intro container">
+		                    <div class="inner-intro">
+		                        <h1 class="header-title">
+		                            <span>traveling</span> always "good idea"
+		                        </h1>
+		                        <p class="header-sub-title">
+		                            it leaves you speecless, then turns your into a storyteller.
+		                        </p>
+		                        <button class="btn custom-btn">
+		                            book now
+		                        </button>
+		                    </div>
+		                </div>
+		            </li> <!-- /.slider-item -->
+		            <li class="slider-item" style="background-image: url('assets/images/item-2.png')">
+		                <div class="intro">
+		                    <div class="inner-intro">
+		                        <h1 class="header-title">
+		                            to <span>travel</span> is to <span>live</span>
+		                        </h1>
+		                        <p class="header-sub-title">
+		                            it leaves you speecless, then turns your into a storyteller.
+		                        </p>
+		                        <button class="btn custom-btn">
+		                            book now
+		                        </button>
+		                    </div>
+		                </div>
+		            </li> <!-- /.slider-item -->
+		        </ul> <!-- /.slides -->
+		    </div> <!-- /.flexslider -->
+		</div> <!-- /#header -->
+
+<!-- Forum -->
+
+<div class="container" style="margin-top: 35px">
   <div class="page-header page-heading">
-    <h1 class="pull-left">Forums</h1>
+    <h1 class="pull-left" style="color: black;">Forums</h1>
     <ol class="breadcrumb pull-right where-am-i">
       <li><a href="#">Forums</a></li>
       <li class="active">List of topics</li>
@@ -78,7 +110,7 @@
       <tr>
         <th class="cell-stat"></th>
         <th>
-          <h3>Important</h3>
+          <h3 style="color: black;">Important</h3>
         </th>
         <th class="cell-stat text-center hidden-xs hidden-sm">Topics</th>
         <th class="cell-stat text-center hidden-xs hidden-sm">Posts</th>
@@ -89,7 +121,7 @@
       <tr>
         <td class="text-center"><i class="fa fa-question fa-2x text-primary"></i></td>
         <td>
-          <h4><a href="#">Frequently Asked Questions</a><br><small>Some description</small></h4>
+          <h4 style="color: black;"><a href="#">Frequently Asked Questions</a><br><small>Some description</small></h4>
         </td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">9 542</a></td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">89 897</a></td>
@@ -98,7 +130,7 @@
       <tr>
         <td class="text-center"><i class="fa fa-exclamation fa-2x text-danger"></i></td>
         <td>
-          <h4><a href="#">Important changes</a><br><small>Category description</small></h4>
+          <h4 style="color: black;"><a href="#">Important changes</a><br><small>Category description</small></h4>
         </td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">6532</a></td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">152123</a></td>
@@ -111,7 +143,7 @@
       <tr>
         <th class="cell-stat"></th>
         <th>
-          <h3>Suggestions</h3>
+          <h3 style="color: black;">Suggestions</h3>
         </th>
         <th class="cell-stat text-center hidden-xs hidden-sm">Topics</th>
         <th class="cell-stat text-center hidden-xs hidden-sm">Posts</th>
@@ -122,7 +154,7 @@
       <tr>
         <td class="text-center"><i class="fa fa-heart fa-2x text-primary"></i></td>
         <td>
-          <h4><a href="#">More more more</a><br><small>Category description</small></h4>
+          <h4 style="color: black;"><a href="#">More more more</a><br><small>Category description</small></h4>
         </td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">6532</a></td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">152123</a></td>
@@ -131,7 +163,7 @@
       <tr>
         <td class="text-center"><i class="fa fa-magic fa-2x text-primary"></i></td>
         <td>
-          <h4><a href="#">Haha</a><br><small>Category description</small></h4>
+          <h4 style="color: black;"><a href="#">Haha</a><br><small>Category description</small></h4>
         </td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">6532</a></td>
         <td class="text-center hidden-xs hidden-sm"><a href="#">152123</a></td>
@@ -144,7 +176,7 @@
       <tr>
         <th class="cell-stat"></th>
         <th>
-          <h3>Open discussion</h3>
+          <h3 style="color: black">Open discussion</h3>
         </th>
         <th class="cell-stat text-center hidden-xs hidden-sm">Topics</th>
         <th class="cell-stat text-center hidden-xs hidden-sm">Posts</th>
@@ -160,10 +192,35 @@
   </table>
 </div>
 </div>
-  </div>
-</div>
 
-    <script src="bootstrap.min.js"></script>
-    <script src="scripts.js"></script>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-4">
+					<div class="text-left">
+						&copy; Copyright Euro Travels
+					</div>
+				</div>
+				<div class="col-xs-4">
+					Theme by <a href="http://www.themewagon.com">THEMEWAGON</a>
+				</div>
+				<div class="col-xs-4">
+					<div class="top">
+						<a href="#header">
+							<i class="ion-arrow-up-b"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="assets/js/jquery-1.11.2.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/contact.js"></script>
+    <script src="assets/js/jquery.flexslider.js"></script>
+	<script src="assets/js/script.js"></script>
+
 </body>
 </html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--[if IE 7 ]><html class="ie ie7 lte9 lte8 lte7" lang="en-US"><![endif]-->
+<!--[if IE 8]><html class="ie ie8 lte9 lte8" lang="en-US">	<![endif]-->
+<!--[if IE 9]><html class="ie ie9 lte9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html class="noIE" lang="en-US">
+<!--<![endif]-->
+	<head>
+		<!-- meta -->
+			<meta http-equiv="X-UA-Compatible" content="IE=edge">
+			<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+			<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no"/>
+	<title>I wanna go !</title>
+
+<script src="jquery-1.11.2.min.js"></script>
+<script
+		src="http://maps.googleapis.com/maps/api/js">
+	</script>
+
+  <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="OwlCarousel2-2.2.1/dist/assets/owl.theme.default.css">
+  <script src="OwlCarousel2-2.2.1/dist/owl.carousel.min.js"></script>
+
+</head>
+<body>
+  <div id="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html" title="HOME"><i class="ion-paper-airplane"></i> i wanna <span>GO !</span></a>
+			</div>
+
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">notifications</a></li>
+					<li class="active"><a href="my-trips.html">my trips</a></li>
+					<li><a href="profile.html">profile</a></li>
+					<li><a href="login.html">log out</a></li>
+				</ul>
+		    </div>
+	  	</div>
+	</nav>
+  </div>
+  <div id="my-trips-body">
+    <div id="trip-details-pane">
+      <p>
+        Further details about the trip go here;
+      </p>
+    </div>
+    <div id="trip-map">
+      <section>
+      		<div class="container">
+      			<div class="row">
+      				<div>
+      					<div id="google-map"></div>
+      				</div> <!-- /.col-sm-6 -->
+      			</div>
+      		</div>
+      	</section>
+    </div>
+  </div>
+
+
+    <script src="bootstrap.min.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
