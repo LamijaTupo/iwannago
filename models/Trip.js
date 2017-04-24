@@ -6,7 +6,8 @@ var TripSchema = new mongoose.Schema({
     visits: [visit],
     destination: String,
     travelDate: Date,
-    returnDate: Date
+    returnDate: Date,
+    name: String
 });
 mongoose.model('Trip', TripSchema);
 module.exports = mongoose.model('Trip');
