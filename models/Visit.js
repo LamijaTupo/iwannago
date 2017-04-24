@@ -5,7 +5,7 @@ var VisitSchema = new mongoose.Schema({
     meetingPoint: String,
     meetingTime: Date,
     duration: String,
-    users: [userList]
+    users: [userList.Id]
 });
 mongoose.model('Visit', VisitSchema);
 module.exports = mongoose.model('Visit');
